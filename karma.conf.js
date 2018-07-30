@@ -7,7 +7,7 @@ module.exports = function (config) {
             'src/karma.specs.js'
         ],
         preprocessors: {
-            '**/src/calculator.js': ['coverage']
+            'src/calculator.js': ['coverage']
         },
         plugins: [
             'karma-jasmine',
