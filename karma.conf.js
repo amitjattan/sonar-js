@@ -20,8 +20,7 @@ module.exports = function (config) {
         logLevel: config.LOG_DEBUG,
         autowatch: true,
         browsers: ['PhantomJS'],
-        singleRun: false,
-        concurrency: Infinity,
+        singleRun: true,
         coverageReporter: {
             includeAllSources: true,
             dir: 'coverage/',
