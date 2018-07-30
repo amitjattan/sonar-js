@@ -4,7 +4,7 @@ module.exports = function (config) {
         frameworks: ['jasmine'],
         files: [
             'src/calculator.js',
-            'src/karma.specs.js'
+            'src/calculator.specs.js'
         ],
         preprocessors: {
             'src/calculator.js': ['coverage']
