@@ -17,6 +17,7 @@ module.exports = function (config) {
         reporters: ['progress', 'coverage'],
         port: 9878,
         colors: true,
+        logLevel: config.LOG_INFO,
         autowatch: true,
         browsers: ['PhantomJS'],
         singleRun: true,
