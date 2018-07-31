@@ -21,13 +21,9 @@ module.exports = function (config) {
         autowatch: true,
         browsers: ['PhantomJS'],
         singleRun: true,
-        coverageReporter: {
-            includeAllSources: true,
-            dir: 'coverage/',
-            reporters: [
-                { type: "html", subdir: "html" },
-                { type: 'text-summary' }
-            ]
+        coverageReporter = {
+	        type : 'lcov',
+	        dir : 'coverage/'
         }
     });
 };
